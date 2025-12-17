@@ -10,6 +10,5 @@ def index():
 
 
 @weather_bp.route("/weather", methods=["GET"])
-def weather():
-    data = get_weather()
+def weather():  data = get_weather()
     return jsonify(data)
