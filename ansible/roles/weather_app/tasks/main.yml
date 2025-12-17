@@ -1,0 +1,10 @@
+---
+# main task file for weather_app role
+- name: Include install
+  import_tasks: install.yml
+
+- name: Include deploy
+  import_tasks: deploy.yml
+
+- name: Include rollback
+  import_tasks: rollback.yml

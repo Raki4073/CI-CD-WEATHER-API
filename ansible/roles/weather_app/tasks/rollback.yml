@@ -1,0 +1,4 @@
+---
+- name: Rollback (placeholder)
+  debug:
+    msg: "Rollback not implemented yet"

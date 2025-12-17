@@ -1,0 +1,4 @@
+---
+- name: Deploy application files (placeholder)
+  debug:
+    msg: "Deploying weather app - implement file copy & service setup"
